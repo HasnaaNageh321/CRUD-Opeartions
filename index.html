@@ -1,0 +1,91 @@
+<!-- جديد: اختصارات لوحة المفاتيح … تم تعديل اختصارات لوحة مفاتيح Drive للسماح لك بالتنقّل باستخدام الأحرف الأولى. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD</title>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Style.css" />
+</head>
+
+<body>
+
+    <section class="pInputs py-5">
+        <div class="container">
+            <div class="row  justify-content-center">
+                <div class="col-md-8">
+                    <div class="input-group ">
+                        <label for="pName">Product Name:-</label>
+                        <input type="text" id="pName" class="form-control" placeholder="Samsung...">
+                    </div>
+
+                    <div class="input-group ">
+                        <label for="pPrice">Product Price:-</label>
+                        <input type="text" id="pPrice" class="form-control" placeholder="5000...">
+                    </div>
+
+                    <div class="input-group ">
+                        <label for="pCategory">Product Category:-</label>
+                        <input type="text" id="pCategory" class="form-control" placeholder="Mobile...">
+                    </div>
+
+                    <div class="input-group ">
+                        <label for="pDesc">Product Description:-</label>
+                        <input type="text" id="pDesc" class="form-control" placeholder="Samsung...">
+                    </div>
+
+                    <button class="btn" id="btn">Add Product</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="pInfo py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="input-group ">
+                        <input type="text" id="searchProduct" class="form-control" placeholder="Search...">
+                    </div>
+                    <div class="table-resposive">
+                        <table class="table">
+                            <thead>
+                                <th>Index</th>
+                                <th>Name</th>
+                                <th>Price</th>
+                                <th>Category</th>
+                                <th>Description</th>
+                                <th>Delete</th>
+                                <th>Update</th>
+                            </thead>
+                            <tbody id="tbody">
+                                <!-- <tr>
+                    <td>1</td>
+                    <td>Samsung</td>
+                    <td>5000</td>
+                    <td>Mobile</td>
+                    <td>Nice</td>
+                    <td><button class="btn delete">Delete</button> </td>
+                    <td><button class="btn update">Update</button> </td>
+                  </tr> -->
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

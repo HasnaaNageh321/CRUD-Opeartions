@@ -1,0 +1,61 @@
+/* جديد: اختصارات لوحة المفاتيح … تم تعديل اختصارات لوحة مفاتيح Drive للسماح لك بالتنقّل باستخدام الأحرف الأولى. */
+:root{
+    --mainColor:#554edd ;
+    --btnColor: #e37373;
+    --btnColor2: #e3c373;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Edu AU VIC WA NT Hand", cursive; 
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dae3ee, #729ceb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 5000px;
+}
+.pInputs{
+    padding: 10px;
+    background-color: rgba(240, 255, 255, 0.297);
+}
+.input-group{
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.form-control{
+    margin-top: 10px;
+    width: 100% !important;
+    border-radius: 0 !important;
+}
+.btn{
+    display: block;
+    padding: 8px 20px;
+    border: 0;
+    background: #554edd;
+    color: white;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.btn.update{
+    background-color: #e3c373;
+}
+.btn.delete{
+    background-color: #e37373;
+}
+span{
+    font-size: 30px;
+}
+
+
+table>:not(caption)>*>*{
+    border: 0px !important;
+}
+.table>:not(caption)>*>* {
+    padding: .5rem .5rem;
+    /* color: var(--bs-table-color-state, var(--bs-table-color-type, var(--bs-table-color))); */
+    /* background-color: var(--bs-table-bg); */
+    border-bottom-width: var(--bs-border-width);
+    box-shadow: inset 0 0 0 9999px var(--bs-table-bg-state, var(--bs-table-bg-type, var(--bs-table-accent-bg)));
+}
